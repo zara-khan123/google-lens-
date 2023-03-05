@@ -1,13 +1,45 @@
-.result_para_tag
+.heading
 {
-width: 450px;
-height:450px;
+  width: 100%;
+  font-size: 23px;
+  margin: 0px;
+  box-shadow:5px 5px 5px grey;
+ 
+}
+.heading_div
+{
+  
+  float:none;
+  background: white ; 
+  border-radius: 20px; 
+  color: black;
+  box-shadow:5px 5px 5px grey;
+  padding: 10px;
+}
+.heading_div2
+{
+  font-size: 18px ;
+}
+.test_image_and_result
+{
+  box-shadow:5px 5px 5px black;
+  font-size: 35px;
+  width: 1400px;
+  height: 800px;
+  background-color: rgb(190, 190, 190);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkviolet;
+  font-weight: bold;
+
+}
+
+.result_para_tag span
+{
+white-space: pre-line;
 }
 
 .copy_right_footer
 {
-  
-  font-size: 16px;;  
   position:fixed;
   color: white;
   bottom: 0 ;
@@ -15,4 +47,9 @@ height:450px;
   background-color: grey;
   line-height: 3;
   text-align: center;
+}
+
+.heading_div3
+{
+  font-size: 18px ;
 }
